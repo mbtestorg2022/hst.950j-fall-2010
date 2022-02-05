@@ -63,13 +63,120 @@ Problems:
 
 3\. The following is a protein circuit perturbation-based profile. It lists which proteins are present in a particular system under different trial circumstances. In each trial (except t=0) one protein is either added or removed.
 
-| TRIAL | PROTEIN 1 | PROTEIN 2 | PROTEIN 3 | PROTEIN 4 |
-| --- | --- | --- | --- | --- |
-| t=0 | 0 | 1 | 1 | 1 |
-| t=1 | 1 | 0 | 1 | removed |
-| t=2 | 0 | 0 | removed | 1 |
-| t=3 | 1 | removed | 1 | 1 |
-| t=4 | Added | 1 | 1 | 1 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+TRIAL
+{{< thclose >}}
+{{< thopen >}}
+PROTEIN 1
+{{< thclose >}}
+{{< thopen >}}
+PROTEIN 2
+{{< thclose >}}
+{{< thopen >}}
+PROTEIN 3
+{{< thclose >}}
+{{< thopen >}}
+PROTEIN 4
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+t=0
+{{< tdclose >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+t=1
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+removed
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+t=2
+{{< tdclose >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+removed
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+t=3
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+removed
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+t=4
+{{< tdclose >}}
+{{< tdopen >}}
+Added
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 1.  Find a simple expression (using only primitives AND, NOT, OR) for each protein that is consistent with this protein circuit perturbation-based profile. A protein's formula need not be consistent with the trial in which it is experimentally adjusted, but must be consistent with the other 4 trials. For another protein's formula, you may treat other proteins that were added as "1_"_ and removed as "0."
 2.  Your collaborators' experiments suggest that all proteins except protein 3 are involved in the p53 pathway (involved in many cancers). Based on [Biocarta](http://www.biocarta.com) pathways, what are possibilities for proteins 1, 2 and 4 given the protein circuit you derived in part 1?

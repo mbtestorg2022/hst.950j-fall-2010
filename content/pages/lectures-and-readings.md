@@ -8,32 +8,470 @@ uid: 11c12d59-da57-ebd6-ceaf-4645dacef821
 
 See [Supplemental Readings](#Supplemental_Readings) below for additional reading material.
 
-| LEC # | LECTURES | FILES | READINGS |
-| --- | --- | --- | --- |
-| 1 | Introduction (Peter Szolovits) | ([PDF - 1.3MB](http://apps.himss.org/foundation/docs/2012_AnnualReportDorenfest.pdf)) |  {{< br >}}{{< br >}} \[Text\] Chapter 1, and 2 {{< br >}}{{< br >}}  |
-| 2 | Nature of clinical data (Peter Szolovits) | ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec2)) | \[Text\] Chapter 12 |
-| 3 | Standards (Peter Szolovits) |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec3_1)) {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec3_2)) {{< br >}}{{< br >}}  | &nbsp; |
-| 4 | Data in narrative text (Peter Szolovits) | ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec4)) | \[Text\] Chapter 8 |
-| 5 | Gene, expression and protein data (Alvin Kho) | &nbsp; |  {{< br >}}{{< br >}} \[Text\] Chapter 22 {{< br >}}{{< br >}}  |
-| 6 | Genes and modeling (Alvin Kho) | &nbsp; | MAQC Consortium. "[The MicroArray Quality Control (MAQC) Project Shows Inter- and Intraplatform Reproducibility of Gene Expression Measurements](http://dx.doi.org/10.1038/nbt1239)." _Nature Biotechnology_ 24, no. 9 (2006). |
-| 7 | Building models (Peter Szolovits) | ([PDF - 1.2MB]({{< baseurl >}}/resources/mithst_950jf10_lec7)) | &nbsp; |
-| 8 | Probabilistic and graphical models (Peter Szolovits) |   {{< br >}} | \[Text\] Chapter 3 |
-| 9 | Information theoretic metrics (Gil Alterovitz) |   {{< br >}} | &nbsp; |
-| 10 | Decision support via probabilities and utilities (Peter Szolovits) | ([PDF - 1.2MB]({{< baseurl >}}/resources/mithst_950jf10_lec10)) | &nbsp; |
-| 11 | Decision support via expert systems (Peter Szolovits) | ([PDF - 1.0MB]({{< baseurl >}}/resources/mithst_950jf10_lec11)) |  {{< br >}}{{< br >}} \[Text\] Chapter 20 {{< br >}}{{< br >}} Pople, H. E., Jr. "[Heuristic Methods for Imposing Structure on Ill-Structured Problems: Medical Diagnostics](http://groups.csail.mit.edu/medg/people/psz/ftp/AIM82/ch5.html)." 1982. {{< br >}}{{< br >}}  |
-| 12 | Using the healthcare enterprise for research (Isaac Kohane) |   {{< br >}} | &nbsp; |
-| 13 | Personally controlled health records (Kenneth Mandl) |   {{< br >}} |  {{< br >}}{{< br >}} Mandl, Kenneth D., and Isaac S. Kohane. "[Tectonic Shifts in the Health Information Economy](http://dx.doi.org/10.1056/nejmsb0800220)." _New England Journal of Medicine_ 358, no. 16 (2008). {{< br >}}{{< br >}} ———. "No Small Change for the Health Information Economy." _New England Journal of Medicine_ 360, no. 13 (2009). {{< br >}}{{< br >}} MIT Sana ([PDF]({{< baseurl >}}/resources/mithst_950jf10_sana)) (Courtesy of Leo Anthony Celi. Used with permission.) {{< br >}}{{< br >}}  |
-| 14 | Modeling with bayesian networks (Peter Szolovits) | ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec14)) |  {{< br >}}{{< br >}} Pearl, Judea. "[Causal Inference in the Health Sciences: A Conceptual Introduction](https://link.springer.com/article/10.1023/A:1020315127304)." _Health Services & Outcomes Research Methodology_ 2, no. 3-4 (2001). {{< br >}}{{< br >}} [A tutorial on learning with Bayesian networks](http://research.microsoft.com/apps/pubs/default.aspx?id=69588) {{< br >}}{{< br >}} Szolovits, Peter. "[Uncertainty and Decisions in Medical Informatics](http://www.ncbi.nlm.nih.gov/pubmed/9082120)." _Methods of Information in Medicine_ 34, no. 1-2 (1995). {{< br >}}{{< br >}}  |
-| 15 | Patient monitoring and intensive care (Leo Celi) |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec15_1)) {{< br >}}{{< br >}} ([PDF - 3.9MB]({{< baseurl >}}/resources/mithst_950jf10_sana)) {{< br >}}{{< br >}} (Courtesy of Leo Anthony Celi. Used with permission.) {{< br >}}{{< br >}}  | Celi, Leo Anthony G., et al. "A Clinical Database-Driven Approach to Decision Support: Predicting Mortality Among Patients with Acute Kidney Injury." _Journal of Healthcare Engineering_ 1, no. 2 (2011). |
-| 16 | HIT in the developing world (Hamish Fraser) | ([PDF - 3.6MB]({{< baseurl >}}/resources/mithst_950jf10_lec16)) (Courtesy of Hamish Fraser. Used with permission.) |  {{< br >}}{{< br >}} Mamlin, Burke W., et al. "[Cooking up an Open-Source EMR for Developing Countries: OpenMRS – A Recipe for Successful Collaboration](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1839638/)." _AMIA Annu Symp Pro_c (2006). {{< br >}}{{< br >}} Amoroso, Cheryl L., et al. "[Using Electronic Medical Records for HIV Care in Rural Rwanda](http://www.ncbi.nlm.nih.gov/pubmed/20841704)." _Studies in Health Technology and Informatics_ 160 (2010). {{< br >}}{{< br >}} Were, Martin C., et al. "[Leapfrogging Paper-Based Records using Handheld Technology: Experience from Western Kenya](http://www.ncbi.nlm.nih.gov/pubmed/20841742)." _Studies in Health Technology and Informatics_ 160 (2010). {{< br >}}{{< br >}}  |
-| 17 | Learning bayesian networks (Peter Szolovits) | ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec17)) | &nbsp; |
-| 18 | Informatics in radiology (Ronilda Lacson) |   {{< br >}} |  {{< br >}}{{< br >}} \[Text\] Chapters 9, and 18 {{< br >}}{{< br >}} Branstetter, Barton F. "Basics of Imaging Informatics: Part 1." _Radiology_ 243, no. 3 (2007). {{< br >}}{{< br >}} ———."Basics of Imaging Informatics: Part 2." _Radiology_ 244, no. 1 (2007). {{< br >}}{{< br >}}  |
-| 19 | Predictive genomics (Michael McGeachie) | &nbsp; |  {{< br >}}{{< br >}} Sebastiani, Paola, et al. "[Genetic Dissection and Prognostic Modeling of Overt Stroke in Sickle Cell Anemia](http://dx.doi.org/10.1038/ng1533 )." _Nature Genetics_ 37, no. 4 (2005). {{< br >}}{{< br >}} Allocco, Dominic J., et al. "[Geography and Genography: Prediction of Continental Origin Using Randomly Selected Single Nucleotide Polymorphisms](http://dx.doi.org/10.1186/1471-2164-8-68)." _BMC Genomics_ 8, no. 68 (2007). {{< br >}}{{< br >}} Lewis, Cathryn M. "[Genetic Association Studies: Design, Analysis and Interpretation](http://dx.doi.org/10.1093/bib/3.2.146)." _Briefings in Bioinformatics_ 3_,_ no. 2 (2002). {{< br >}}{{< br >}} McGeachie, Michael, et al. "[Integrative Predictive Model of Coronary Artery Calcification in Atherosclerosis](http://dx.doi.org/10.1161/CIRCULATIONAHA.109.865501)." _Circulation_ 120 (2009). {{< br >}}{{< br >}}  |
-| 20 | Patient data privacy (Peter Szolovits and Chris Cassa) | ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec20_2)) | Meystre, S. M., et al. "[Automatic De-Identification of Textual Documents in the Electronic Health Record: A Review](http://dx.doi.org/10.1186/1471-2288-10-70)." _BMC Medical Research Methodology_ 10 (2010): 70. |
-| 21 | Public health informatics (John Brownstein) |   {{< br >}} | \[Text\] Chapter 15 |
-| 22 | Computer science challenges from health care (Peter Szolovits) | ([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec22)) | Stead, W. W., and H. S. Lin, editors. _Computational Technology for Effective Health Care: Immediate Steps and Strategic Directions_. Committee on Engaging the Computer Science Research Community in Health Care; National Research Council. National Academies Press, 2009. ([PDF](https://www.nlm.nih.gov/pubs/reports/comptech_prepub.pdf)) |
-| 23 | Networks (Gil Alterovitz) |   {{< br >}} | {{< h 3 >}}Suggested Reading{{< /h >}} {{< br >}}{{< br >}} Alterovitz, Gil, and Marco F. Ramoni, editors. Chapters 1 and 7 in _Systems Bioinformatics_. Artech House Publishers, 2007. ISBN: 9781596931244. {{< br >}}{{< br >}}  |
-| 24-25 | Final project presentations | &nbsp; |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+LECTURES
+{{< thclose >}}
+{{< thopen >}}
+FILES
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 1.3MB](http://apps.himss.org/foundation/docs/2012_AnnualReportDorenfest.pdf))
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[Text\] Chapter 1, and 2
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Nature of clinical data (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec2))
+{{< tdclose >}}
+{{< tdopen >}}
+\[Text\] Chapter 12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Standards (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec3_1))
+
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec3_2))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Data in narrative text (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec4))
+{{< tdclose >}}
+{{< tdopen >}}
+\[Text\] Chapter 8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Gene, expression and protein data (Alvin Kho)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[Text\] Chapter 22
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Genes and modeling (Alvin Kho)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+MAQC Consortium. "[The MicroArray Quality Control (MAQC) Project Shows Inter- and Intraplatform Reproducibility of Gene Expression Measurements](http://dx.doi.org/10.1038/nbt1239)." _Nature Biotechnology_ 24, no. 9 (2006).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Building models (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 1.2MB]({{< baseurl >}}/resources/mithst_950jf10_lec7))
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Probabilistic and graphical models (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+  
+
+{{< tdclose >}}
+{{< tdopen >}}
+\[Text\] Chapter 3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Information theoretic metrics (Gil Alterovitz)
+{{< tdclose >}}
+{{< tdopen >}}
+  
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Decision support via probabilities and utilities (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 1.2MB]({{< baseurl >}}/resources/mithst_950jf10_lec10))
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Decision support via expert systems (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 1.0MB]({{< baseurl >}}/resources/mithst_950jf10_lec11))
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[Text\] Chapter 20
+
+Pople, H. E., Jr. "[Heuristic Methods for Imposing Structure on Ill-Structured Problems: Medical Diagnostics](http://groups.csail.mit.edu/medg/people/psz/ftp/AIM82/ch5.html)." 1982.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Using the healthcare enterprise for research (Isaac Kohane)
+{{< tdclose >}}
+{{< tdopen >}}
+  
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Personally controlled health records (Kenneth Mandl)
+{{< tdclose >}}
+{{< tdopen >}}
+  
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Mandl, Kenneth D., and Isaac S. Kohane. "[Tectonic Shifts in the Health Information Economy](http://dx.doi.org/10.1056/nejmsb0800220)." _New England Journal of Medicine_ 358, no. 16 (2008).
+
+———. "No Small Change for the Health Information Economy." _New England Journal of Medicine_ 360, no. 13 (2009).
+
+MIT Sana ([PDF]({{< baseurl >}}/resources/mithst_950jf10_sana)) (Courtesy of Leo Anthony Celi. Used with permission.)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Modeling with bayesian networks (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec14))
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Pearl, Judea. "[Causal Inference in the Health Sciences: A Conceptual Introduction](https://link.springer.com/article/10.1023/A:1020315127304)." _Health Services & Outcomes Research Methodology_ 2, no. 3-4 (2001).
+
+[A tutorial on learning with Bayesian networks](http://research.microsoft.com/apps/pubs/default.aspx?id=69588)
+
+Szolovits, Peter. "[Uncertainty and Decisions in Medical Informatics](http://www.ncbi.nlm.nih.gov/pubmed/9082120)." _Methods of Information in Medicine_ 34, no. 1-2 (1995).
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Patient monitoring and intensive care (Leo Celi)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec15_1))
+
+([PDF - 3.9MB]({{< baseurl >}}/resources/mithst_950jf10_sana))
+
+(Courtesy of Leo Anthony Celi. Used with permission.)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Celi, Leo Anthony G., et al. "A Clinical Database-Driven Approach to Decision Support: Predicting Mortality Among Patients with Acute Kidney Injury." _Journal of Healthcare Engineering_ 1, no. 2 (2011).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+HIT in the developing world (Hamish Fraser)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 3.6MB]({{< baseurl >}}/resources/mithst_950jf10_lec16)) (Courtesy of Hamish Fraser. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Mamlin, Burke W., et al. "[Cooking up an Open-Source EMR for Developing Countries: OpenMRS – A Recipe for Successful Collaboration](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1839638/)." _AMIA Annu Symp Pro_c (2006).
+
+Amoroso, Cheryl L., et al. "[Using Electronic Medical Records for HIV Care in Rural Rwanda](http://www.ncbi.nlm.nih.gov/pubmed/20841704)." _Studies in Health Technology and Informatics_ 160 (2010).
+
+Were, Martin C., et al. "[Leapfrogging Paper-Based Records using Handheld Technology: Experience from Western Kenya](http://www.ncbi.nlm.nih.gov/pubmed/20841742)." _Studies in Health Technology and Informatics_ 160 (2010).
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Learning bayesian networks (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec17))
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Informatics in radiology (Ronilda Lacson)
+{{< tdclose >}}
+{{< tdopen >}}
+  
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[Text\] Chapters 9, and 18
+
+Branstetter, Barton F. "Basics of Imaging Informatics: Part 1." _Radiology_ 243, no. 3 (2007).
+
+———."Basics of Imaging Informatics: Part 2." _Radiology_ 244, no. 1 (2007).
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Predictive genomics (Michael McGeachie)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Sebastiani, Paola, et al. "[Genetic Dissection and Prognostic Modeling of Overt Stroke in Sickle Cell Anemia](http://dx.doi.org/10.1038/ng1533 )." _Nature Genetics_ 37, no. 4 (2005).
+
+Allocco, Dominic J., et al. "[Geography and Genography: Prediction of Continental Origin Using Randomly Selected Single Nucleotide Polymorphisms](http://dx.doi.org/10.1186/1471-2164-8-68)." _BMC Genomics_ 8, no. 68 (2007).
+
+Lewis, Cathryn M. "[Genetic Association Studies: Design, Analysis and Interpretation](http://dx.doi.org/10.1093/bib/3.2.146)." _Briefings in Bioinformatics_ 3_,_ no. 2 (2002).
+
+McGeachie, Michael, et al. "[Integrative Predictive Model of Coronary Artery Calcification in Atherosclerosis](http://dx.doi.org/10.1161/CIRCULATIONAHA.109.865501)." _Circulation_ 120 (2009).
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Patient data privacy (Peter Szolovits and Chris Cassa)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec20_2))
+{{< tdclose >}}
+{{< tdopen >}}
+Meystre, S. M., et al. "[Automatic De-Identification of Textual Documents in the Electronic Health Record: A Review](http://dx.doi.org/10.1186/1471-2288-10-70)." _BMC Medical Research Methodology_ 10 (2010): 70.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Public health informatics (John Brownstein)
+{{< tdclose >}}
+{{< tdopen >}}
+  
+
+{{< tdclose >}}
+{{< tdopen >}}
+\[Text\] Chapter 15
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Computer science challenges from health care (Peter Szolovits)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mithst_950jf10_lec22))
+{{< tdclose >}}
+{{< tdopen >}}
+Stead, W. W., and H. S. Lin, editors. _Computational Technology for Effective Health Care: Immediate Steps and Strategic Directions_. Committee on Engaging the Computer Science Research Community in Health Care; National Research Council. National Academies Press, 2009. ([PDF](https://www.nlm.nih.gov/pubs/reports/comptech_prepub.pdf))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Networks (Gil Alterovitz)
+{{< tdclose >}}
+{{< tdopen >}}
+  
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Suggested Reading
+
+Alterovitz, Gil, and Marco F. Ramoni, editors. Chapters 1 and 7 in _Systems Bioinformatics_. Artech House Publishers, 2007. ISBN: 9781596931244.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24-25
+{{< tdclose >}}
+{{< tdopen >}}
+Final project presentations
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### {{< anchor "Supplemental_Readings" >}}{{< /anchor >}}Supplemental Readings
 
