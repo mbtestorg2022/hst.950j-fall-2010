@@ -14,19 +14,19 @@ Much of what we know about the world is known with various degrees of certainty.
 Mathematical Preliminaries
 --------------------------
 
-We take the world of interest to consist of a set of random variables, _X_ = {_X_1, _X_2, ... , _X_n}. Each of the _X_i can take on one of a discrete set of values, {_x_i1, _x_i2, ... , _x_iki}. (Formulations using continuous variables are also possible, but we will not pursue them here. A continuous variable can, of course, be approximated by a large number of discrete values.)Each possible combination of assignments of values to each of the variables represents a possible state of this world. There are![Image of a mathematical equation.](/courses/health-sciences-and-technology/hst-950j-biomedical-computing-fall-2010/assignments/assn3/one.png) such states. This is clearly exponential in the number of variables; for example, if each variable is binary, all of the _k_i = 2 and the number of states is 2n. Each state may be identified with the particular values that it assigns to each variable. We might have, for example, _S_12 = {_X_1 = _a_, _X_2 = _e_, ... , _X_n = _b_}.
+We take the world of interest to consist of a set of random variables, _X_ = {_X_1, _X_2, ... , _X_n}. Each of the _X_i can take on one of a discrete set of values, {_x_i1, _x_i2, ... , _x_iki}. (Formulations using continuous variables are also possible, but we will not pursue them here. A continuous variable can, of course, be approximated by a large number of discrete values.)Each possible combination of assignments of values to each of the variables represents a possible state of this world. There are{{< resource "cb9bd55e-7502-c25e-453b-c5573daf835d" >}} such states. This is clearly exponential in the number of variables; for example, if each variable is binary, all of the _k_i = 2 and the number of states is 2n. Each state may be identified with the particular values that it assigns to each variable. We might have, for example, _S_12 = {_X_1 = _a_, _X_2 = _e_, ... , _X_n = _b_}.
 
-A probability function, _P'_, assigns a probability to each of these possible states. The probability for each state, _P_(_S_i),is the _joint probability_ of that particular assignment of values to the variables. All states are distinct, and they exhaustively enumerate the possibilities; therefore, ![Image of a mathematical equation.](/courses/health-sciences-and-technology/hst-950j-biomedical-computing-fall-2010/assignments/assn3/two.png).
+A probability function, _P'_, assigns a probability to each of these possible states. The probability for each state, _P_(_S_i),is the _joint probability_ of that particular assignment of values to the variables. All states are distinct, and they exhaustively enumerate the possibilities; therefore, {{< resource "e74b850e-89b7-6021-9146-965c15916d49" >}}.
 
 We will often be interested in the probability not of individual states, but of certain combinations of particular variables taking on particular values. For instance, we may be interested in the probability that {_X_3 = _a_, _X_5 = _b_}. In such cases, we wish to treat other variables as "don't cares." We call such a partial description of the world a _circumstance C_, and the variables that have values assigned the _instantiation-set_ of the circumstance, _I_(_C_). ("Circumstance" is not a commonly-used term for partial descriptions of the world. People use terms such as "partially-specified state" and other equally unsatisfying terms.) The probability of a circumstance _C_ can be computed by summing the probabilities of all states that assign the same values to the variables in the instantiation set _I_(_C_) as _C_. If we re-order
 
 variables _X_ so that the first _m_ are the instantiation set of _C_, then (in a shorthand notation):
 
-![Image of a mathematical equation.](/courses/health-sciences-and-technology/hst-950j-biomedical-computing-fall-2010/assignments/assn3/three.png).
+{{< resource "f00401e3-84a3-13fd-8ad0-1a5f13be5eb5" >}}.
 
 For example, if the world consists of four binary variables, _W_, _X_, _Y_ and _Z_, then the circumstance {_X_ = true, _Z_ = false} is given by
 
-![Image of a mathematical equation.](/courses/health-sciences-and-technology/hst-950j-biomedical-computing-fall-2010/assignments/assn3/four.png).
+{{< resource "c709c49e-4d67-4479-126a-b3f7a868ca84" >}}.
 
 The computational difficulty of calculating the probability of a circumstance comes precisely from the need to sum over a possibly vast number of states. The number of such states to sum over is exponential in the number of "don't cares" in a circumstance.
 
@@ -36,11 +36,11 @@ The independencies among variables in a domain support a convenient graphical no
 
 The probability of a state is a product over all variables of the probability that the variable takes on its particular value (in that state)
 
-given that its parents take on their particular values:  ![Image of a mathematical equation.](/courses/health-sciences-and-technology/hst-950j-biomedical-computing-fall-2010/assignments/assn3/five.png).
+given that its parents take on their particular values:  {{< resource "36d37272-076a-5ecb-4a46-1d1426c91d52" >}}.
 
-The right hand side is an abbreviation for ![Image of a mathematical equation.](/courses/health-sciences-and-technology/hst-950j-biomedical-computing-fall-2010/assignments/assn3/six.png).
+The right hand side is an abbreviation for {{< resource "c854ec40-35be-f351-bae7-ad863cba5ede" >}}.
 
-where ![Image of a mathematical equation.](/courses/health-sciences-and-technology/hst-950j-biomedical-computing-fall-2010/assignments/assn3/seven.png). As described above, to ﬁnd the probability of a circumstance, we must still sum over all of the states that are consistent with the circumstance — i.e., a number of states exponential in the number of "don't cares."
+where {{< resource "fd6e793d-50e4-1fbd-d63a-b0388d988da9" >}}. As described above, to ﬁnd the probability of a circumstance, we must still sum over all of the states that are consistent with the circumstance — i.e., a number of states exponential in the number of "don't cares."
 
 Problems:
 ---------

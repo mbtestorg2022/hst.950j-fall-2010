@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Image of a mathematical equation.
+parent_uid: d2f52a94-ff1b-3fc1-d791-706b70a4281e
 resourcetype: Image
 title: one.png
 uid: cb9bd55e-7502-c25e-453b-c5573daf835d
