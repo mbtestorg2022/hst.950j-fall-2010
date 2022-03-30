@@ -507,7 +507,7 @@ Glaser, John. "[Assessing the IT function in Less Than One Day](http://www.ncbi.
 
 ———. "[Wired for Success](http://www.ncbi.nlm.nih.gov/pubmed/16519214)." _Healthcare Financial Management_ 60, no. 2 (2006)_._
 
-HIMSS Analytics. _2009 Annual report of the U.S. hospital IT market_. Healthcare Information and Management Systems Society, 2009. [(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)PDF - 2.4MB)](https://apps.himss.org/foundation/docs/2012_AnnualReportDorenfest.pdf) Also see [https://foundation.himss.org](https://foundation.himss.org/)
+HIMSS Analytics. _2009 Annual report of the U.S. hospital IT market_. Healthcare Information and Management Systems Society, 2009. [(PDF - 2.4MB)](https://apps.himss.org/foundation/docs/2012_AnnualReportDorenfest.pdf) Also see [https://foundation.himss.org](https://foundation.himss.org/)
 
 Harrison, Michael I., Ross Koppel, and Shirly Bar-Lev. "[Unintended Consequences of Information Technologies in Health Care—An Interactive Sociotechnical Analysis](http://dx.doi.org/10.1197/jamia.M2384)." _Journal of the American Medical Informatics Association_ 14, no. 5 (2007).
 
@@ -517,7 +517,7 @@ Wolberg, W. H., and G. L. Mangasarian. "[Multisurface Method of Pattern Separati
 
 Kohane, Isaac S., et al. "[Reestablishing the Researcher-Patient Compact](http://www.sciencemag.org/content/316/5826/836)." _Science_ 316, no. 5826 (2007).
 
-Blaya, J., B. Holt, and H. S. Fraser. "Evaluations of the Impact of eHealth Technologies in Developing Countries: A Systematic Review." Presented at "Making the eHealth Connection" in Bellagio, Italy, 2008. (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://www.ghdonline.org/uploads/Blaya2009-Evaluations_of_eHealth_in_Developing_Countries_-_Systematic_Review.pdf))
+Blaya, J., B. Holt, and H. S. Fraser. "Evaluations of the Impact of eHealth Technologies in Developing Countries: A Systematic Review." Presented at "Making the eHealth Connection" in Bellagio, Italy, 2008. ([PDF](http://www.ghdonline.org/uploads/Blaya2009-Evaluations_of_eHealth_in_Developing_Countries_-_Systematic_Review.pdf))
 
 Halamka, John, et al. "[Health care IT collaboration in Massachusetts: The Experience of Creating Regional Connectivity](http://dx.doi.org/10.1197/jamia.M1866)." _Journal of the American Medical Informatics Association_ 12, no. 6 (2005).
 
@@ -551,13 +551,13 @@ Freudenheim, Milt. "[Medical Data on Empire Blue Cross members May Be Lost](http
 
 Wikipedia, "[United Kingdom National DNA Database](http://en.wikipedia.org/wiki/UK_National_DNA_Database)."
 
-Butte, A. J., and I. S. Kohane. "Mutual Information Relevance Networks: Functional Genomic Clustering Using Pairwise Entropy Measurements." _Pacific Symposium on Biocomputing_ 5 (2000). (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://www.nlm.nih.gov/pubs/reports/comptech_prepub.pdf))
+Butte, A. J., and I. S. Kohane. "Mutual Information Relevance Networks: Functional Genomic Clustering Using Pairwise Entropy Measurements." _Pacific Symposium on Biocomputing_ 5 (2000). ([PDF](http://www.nlm.nih.gov/pubs/reports/comptech_prepub.pdf))
 
-Alterovitz, Gil. "System-Wide Peripheral Biomarker Discovery Using Information Theory." _Pacific Symposium on Biocomputing_ 13 (2008). (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://psb.stanford.edu/psb-online/proceedings/psb08/alterovitz.pdf))
+Alterovitz, Gil. "System-Wide Peripheral Biomarker Discovery Using Information Theory." _Pacific Symposium on Biocomputing_ 13 (2008). ([PDF](http://psb.stanford.edu/psb-online/proceedings/psb08/alterovitz.pdf))
 
 Gawande, Atul. "[The Checklist](http://www.newyorker.com/reporting/2007/12/10/071210fa_fact_gawande)." _The New Yorker_, December 10, 2007.
 
-Clifford, G., et al. "Robust Parameter Extraction for Decision Support Using Multimodal Intensive Care Data." _Philosophical Transactions of the Royal Society_ A 367 (2009). (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://ecg.mit.edu/george/publications/clifford-2009.pdf))
+Clifford, G., et al. "Robust Parameter Extraction for Decision Support Using Multimodal Intensive Care Data." _Philosophical Transactions of the Royal Society_ A 367 (2009). ([PDF](http://ecg.mit.edu/george/publications/clifford-2009.pdf))
 
 Stead, William W., and Herbert S. Lin, eds. "Computational Technology for Effective Health Care: Immediate Steps and Strategic Directions." National Academies Press, 2009. ([PDF](http://www.nlm.nih.gov/pubs/reports/comptech_2009.pdf))
 

@@ -8,7 +8,7 @@ uid: c2b98f59-ec34-8a3e-d95d-618476126a21
 
 This problem set asks you to run a relatively simple machine learning algorithm that is designed to work well with text extraction problems on some of the textual data that you encountered in homework assignment 1. The algorithm, called _BoosTexter_, is described in the following paper:
 
-Schapire, Robert E., and Yoram Singer. "BoosTexter: A Boosting-based System for Text Categorization." _Machine Learning_ 39 (2000). (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://www.cis.upenn.edu/~mkearns/finread/boostexter.pdf))
+Schapire, Robert E., and Yoram Singer. "BoosTexter: A Boosting-based System for Text Categorization." _Machine Learning_ 39 (2000). ([PDF](http://www.cis.upenn.edu/~mkearns/finread/boostexter.pdf))
 
 Installing Boostexter
 ---------------------
